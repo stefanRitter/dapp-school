@@ -24,7 +24,9 @@ Simply SSH to your instance and type:
 chmod 400 ethermine.pem
 ssh -i ethermine.pem ubuntu@ec2-54-219-143-56.us-west-1.compute.amazonaws.com
 
-ethminer -G -F http://eth-eu.dwarfpool.com/0x64D5075c709eE3975d24A6B2edE15E3ae3B24C8f/imageproof@protonmail.com --cl-local-work 128 --cl-global-work 16384
+ethminer -G -F http://eth-eu.dwarfpool.com/0x64D5075c709eE3975d24A6B2edE15E3ae3B24C8f/imageproof@protonmail.com
+
+
 
 Leave tmux session:
 ctrl + b then d
